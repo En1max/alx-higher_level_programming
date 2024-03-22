@@ -3,4 +3,4 @@
 # program that prints numbers from 0 to 98 in decimal and in hexadecimal
 
 for num in range(99):
-    print("{} = 0x{}".format(num, hex(num)))
+    print("{} = {}".format(num, hex(num)))
