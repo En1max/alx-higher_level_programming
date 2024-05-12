@@ -2,5 +2,5 @@
 def max_integer(my_list=[]):
     if not my_list:
         return None
-    my_list.sort
-    print("Max: ", my_list[-1])
+    max_value = my_list.sort
+    print("Max: {}".format(max_value))
